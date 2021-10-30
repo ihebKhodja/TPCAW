@@ -1,0 +1,51 @@
+img {
+    border: 1px solid red;
+}
+h1{
+    background-color: black;
+}
+h1,h2{
+    color: grey;
+}
+.s>h2 {
+    color: grey;
+    border:3px solid green;
+}
+h1,h2{
+    color:pink;
+}
+#mon>h1{
+    color: pink;
+}
+#mon>* *{
+    border: 2px red solid;
+}
+#mon>*>span{
+    background-color: yellow;
+}
+#wed h2:hover{
+    color: green;
+}
+#mon h2:hover,#tue h2:hover{
+    color: red;
+}
+
+li:first-of-type{
+    font-weight: bold;
+}
+li:nth-of-type(2){
+    color: red;
+}
+#tue span:first-of-type{
+    color: blue;
+}
+#tue span:nth-of-type(2){
+    font-size: 200%;
+}
+li:nth-of-type(9){
+    color: blue;
+}
+
+li:nth-of-type(5n+3){
+    color: green;
+}
