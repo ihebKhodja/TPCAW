@@ -23,7 +23,7 @@ const LancerDe = () => {
         }
         else{
             setIdentique(false);
-            if(wins>0) setWins(wins-1);
+            setWins(wins-1);
         }
        
     }
